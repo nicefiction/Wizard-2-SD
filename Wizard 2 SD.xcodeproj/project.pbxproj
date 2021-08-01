@@ -14,6 +14,8 @@
 		0969836D26B69822003976FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0969836C26B69822003976FA /* Assets.xcassets */; };
 		0969837026B69822003976FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0969836F26B69822003976FA /* Preview Assets.xcassets */; };
 		0969837326B69822003976FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0969837126B69822003976FA /* LaunchScreen.storyboard */; };
+		0969837F26B69BC7003976FA /* Wizard+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969837D26B69BC7003976FA /* Wizard+CoreDataClass.swift */; };
+		0969838026B69BC7003976FA /* Wizard+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969837E26B69BC7003976FA /* Wizard+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0969836F26B69822003976FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0969837226B69822003976FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0969837426B69822003976FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0969837D26B69BC7003976FA /* Wizard+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wizard+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		0969837E26B69BC7003976FA /* Wizard+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wizard+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,13 @@
 		0969836226B6981F003976FA /* Wizard 2 SD */ = {
 			isa = PBXGroup;
 			children = (
+				0969837B26B69B4A003976FA /* Model */,
 				0969836326B6981F003976FA /* AppDelegate.swift */,
 				0969836526B6981F003976FA /* SceneDelegate.swift */,
 				0969836726B6981F003976FA /* ContentView.swift */,
 				0969836C26B69822003976FA /* Assets.xcassets */,
 				0969837126B69822003976FA /* LaunchScreen.storyboard */,
 				0969837426B69822003976FA /* Info.plist */,
-				0969836926B6981F003976FA /* Wizard_2_SD.xcdatamodeld */,
 				0969836E26B69822003976FA /* Preview Content */,
 			);
 			path = "Wizard 2 SD";
@@ -76,6 +80,16 @@
 				0969836F26B69822003976FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0969837B26B69B4A003976FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0969836926B6981F003976FA /* Wizard_2_SD.xcdatamodeld */,
+				0969837D26B69BC7003976FA /* Wizard+CoreDataClass.swift */,
+				0969837E26B69BC7003976FA /* Wizard+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +164,9 @@
 			files = (
 				0969836B26B6981F003976FA /* Wizard_2_SD.xcdatamodeld in Sources */,
 				0969836426B6981F003976FA /* AppDelegate.swift in Sources */,
+				0969838026B69BC7003976FA /* Wizard+CoreDataProperties.swift in Sources */,
 				0969836626B6981F003976FA /* SceneDelegate.swift in Sources */,
+				0969837F26B69BC7003976FA /* Wizard+CoreDataClass.swift in Sources */,
 				0969836826B6981F003976FA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
